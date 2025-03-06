@@ -15,6 +15,8 @@
 			background: url('valentines_bg.jpg') no-repeat center center/cover;
 			font-family: 'Arial', sans-serif;
 			text-align: center;
+			margin: 0;
+			padding: 0;
 		}
 
 		h1 {
@@ -22,28 +24,43 @@
 			background: rgba(255, 255, 255, 0.7);
 			padding: 10px;
 			border-radius: 10px;
+			font-size: 2.5em;
+			margin-top: 10%;
 		}
 
 		p {
 			font-size: 1.2em;
 			color: #333;
-			max-width: 600px;
+			max-width: 90%;
 			background: rgba(255, 255, 255, 0.7);
 			padding: 15px;
 			border-radius: 10px;
 			text-align: justify;
+			margin: 15px;
 		}
 
 		img {
 			max-width: 100%;
 			height: auto;
 			margin-top: 20px;
+			border-radius: 10px;
+		}
+
+		@media (max-width: 600px) {
+			h1 {
+				font-size: 2em;
+			}
+
+			p {
+				font-size: 1em;
+				padding: 10px;
+			}
 		}
 	</style>
 </head>
 
 <body>
-	<h1 style="margin-top: 10%;">Happy Valentine's Day!</h1>
+	<h1>Happy Valentine's Day!</h1>
 	<p>My Beloved Domi,<br><br>
 		On this special day, I find myself reflecting on the countless ways you bring light into my life. From the moment we met, you have filled my heart with warmth, and I am beyond grateful for everything you are and all that you offer.<br><br>
 
